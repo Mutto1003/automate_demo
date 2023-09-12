@@ -16,7 +16,7 @@ def publishReportTestCase(){
     onlyCritical: true, 
     otherFiles: '**\\selenium-screenshot*.png']) 
 
-    emailext body: '${SCRIPT, template="robot.groovy"}', subject: '[Regression Report] Digitalco $PROJECT_NAME', to: '${Email}'
+    emailext body: '${SCRIPT, template="robot.Groovy"}', subject: '[Regression Report] Digitalco $PROJECT_NAME', to: '${Email}'
  
 }
 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on win32)" generated="20230627 11:11:57.327" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Entronica\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="OpenChrom">
+<msg timestamp="20230627 11:11:57.830" level="FAIL">No keyword with name 'OpenChrom' found.</msg>
+<status status="FAIL" starttime="20230627 11:11:57.830" endtime="20230627 11:11:57.830"/>
+</kw>
+<kw name="Wait For Elements State">
+<arg>//div[@class="auth-wrap animated fadeIn p-4 login-type"]</arg>
+<arg>visible</arg>
+<status status="NOT RUN" starttime="20230627 11:11:57.833" endtime="20230627 11:11:57.833"/>
+</kw>
+<kw name="Login without registration">
+<status status="NOT RUN" starttime="20230627 11:11:57.834" endtime="20230627 11:11:57.834"/>
+</kw>
+<kw name="Click">
+<arg>xpath=//button[@class='navbar-toggler nav-heading-toogle']</arg>
+<status status="NOT RUN" starttime="20230627 11:11:57.835" endtime="20230627 11:11:57.835"/>
+</kw>
+<kw name="Verify all Element side menu">
+<status status="NOT RUN" starttime="20230627 11:11:57.838" endtime="20230627 11:11:57.838"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230627 11:11:57.838" endtime="20230627 11:11:57.838"/>
+</kw>
+<status status="PASS" starttime="20230627 11:11:57.360" endtime="20230627 11:12:05.513"/>
+</kw>
+<status status="PASS" starttime="20230627 11:11:57.358" endtime="20230627 11:12:05.513"/>
+</test>
+<status status="PASS" starttime="20230627 11:11:57.328" endtime="20230627 11:12:05.515"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

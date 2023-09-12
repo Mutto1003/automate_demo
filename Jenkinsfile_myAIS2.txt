@@ -10,7 +10,7 @@ def publishReportTestCase(){
     outputFileName: '**\\output.xml', 
     reportFileName: '**\\report.html', 
     logFileName: '**\\log.html', 
-    disableArchiveOutput: true, 
+    disableArchiveOutput: false, 
     passThreshold: 0, 
     unstableThreshold: 0, 
     onlyCritical: true, 

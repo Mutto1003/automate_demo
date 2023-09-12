@@ -1,7 +1,7 @@
 class logDateTime {static String CurrentDate = new Date().format( 'yyyyMMdd' )}
 
 def runRobot() {
-  bat "robot --variable CONFIGNAME:${Config_name} --variable LOGIN:otp --variable Language:TH --nostatusrc -e UnavailableAvailable -e AvailableUnavailable -e UnavailableUnavailable -e Production -d .\\result TestScript\\Mobile\\${folder}\\${TestSuite}"
+  bat "robot -d .\\result TestSuite\\Test.robot"
 }
 
 def publishReportTestCase(){ 

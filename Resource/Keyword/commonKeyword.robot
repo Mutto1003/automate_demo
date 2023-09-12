@@ -15,7 +15,7 @@ Library     String
 
 *** Keywords ***
 OpenChrom
-    Open Browser    https://aisplay.ais.co.th/portal/    browser=chromium
+    Open Browser    https://aisplay.ais.co.th/portal/    browser=Firefox
 
 Login without registration
     Click    xpath=//button[@class='login-type-btn guest']

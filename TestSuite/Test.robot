@@ -11,13 +11,14 @@ Verify All Side Menu
     # ...    1. เปิดเว็บ
     # ...    2. กดปุ่มแฮมเบอเกอร์เมนู
     # ...    3. Verify all Element side menu
-    # OpenChrom
+    OpenChrom
     Log    message
     # Wait For Elements State    //div[@class="auth-wrap animated fadeIn p-4 login-type"]    visible
     # Login without registration
     # Click    xpath=//button[@class='navbar-toggler nav-heading-toogle']
     # Verify all Element side menu
     # Sleep    5s
+   
 
 # Verify Open Live TV Page
 #     [Documentation]    No. 2

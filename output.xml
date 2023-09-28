@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1 (Python 3.7.4 on win32)" generated="20230912 14:25:44.819" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1 (Python 3.7.4 on win32)" generated="20230922 16:28:46.836" rpa="false" schemaversion="4">
 <suite id="s1" name="Test" source="C:\Users\Entronica\Desktop\Ex_Test\TestSuite\Test.robot">
 <test id="s1-t1" name="Verify All Side Menu" line="8">
+<kw name="OpenChrom" library="commonKeyword">
+<kw name="Open Browser" library="Browser">
+<arg>https://www.google.com</arg>
+<arg>browser=firefox</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<msg timestamp="20230922 16:28:47.565" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg timestamp="20230922 16:28:47.569" level="INFO">{"browser": "firefox", "headless": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "C:\\Users\\Entronica\\Desktop\\Ex_Test\\browser\\traces\\4d201e23-ddf3-47f1-808a-fe0e72d72583"}</msg>
+<msg timestamp="20230922 16:28:48.678" level="INFO">Successfully created browser with options: {"browser":"firefox","headless":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"C:\\Users\\Entronica\\Desktop\\Ex_Test\\browser\\traces\\4d201e23-ddf3-47f1-808a-fe0e72d72583"}</msg>
+<msg timestamp="20230922 16:28:48.678" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "hideRfBrowser": false,
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "deprecated_pos_args": []
+}</msg>
+<msg timestamp="20230922 16:28:48.919" level="INFO">Successfully created context. </msg>
+<msg timestamp="20230922 16:28:48.919" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'hideRfBrowser': False, 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'viewport': {'width': 1280, 'height': 720}, 'deprecated_pos_args': []}</msg>
+<msg timestamp="20230922 16:28:52.172" level="INFO">Successfully initialized new page object and opened url: https://www.google.com</msg>
+<status status="PASS" starttime="20230922 16:28:47.564" endtime="20230922 16:28:52.173"/>
+</kw>
+<status status="PASS" starttime="20230922 16:28:47.562" endtime="20230922 16:28:52.173"/>
+</kw>
 <kw name="Log" library="BuiltIn">
 <arg>message</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230912 14:25:45.535" level="INFO">message</msg>
-<status status="PASS" starttime="20230912 14:25:45.535" endtime="20230912 14:25:45.535"/>
+<msg timestamp="20230922 16:28:52.173" level="INFO">message</msg>
+<status status="PASS" starttime="20230922 16:28:52.173" endtime="20230922 16:28:52.173"/>
 </kw>
-<status status="PASS" starttime="20230912 14:25:45.526" endtime="20230912 14:25:45.535"/>
+<status status="PASS" starttime="20230922 16:28:47.554" endtime="20230922 16:28:52.174"/>
 </test>
-<status status="PASS" starttime="20230912 14:25:44.820" endtime="20230912 14:25:45.557"/>
+<status status="PASS" starttime="20230922 16:28:46.837" endtime="20230922 16:28:52.270"/>
 </suite>
 <statistics>
 <total>
@@ -23,5 +55,6 @@
 </suite>
 </statistics>
 <errors>
+<msg timestamp="20230922 16:28:47.565" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
 </errors>
 </robot>

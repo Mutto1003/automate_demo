@@ -15,7 +15,11 @@ Library     String
 
 *** Keywords ***
 OpenChrom
-    Open Browser    https://aisplay.ais.co.th/portal/    browser=firefox
+    Open Browser    https://www.google.com    browser=firefox
+    # New Browser    chromium    headless=false
+    # New Context    viewport={'width': 1080, 'height': 1080}
+    # New Page       https://aisplay.ais.co.th/portal/
+    # Get Title      ==    Browser
 
 Login without registration
     Click    xpath=//button[@class='login-type-btn guest']
